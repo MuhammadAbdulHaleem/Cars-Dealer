@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Mercedes-Benz - Onic Byte Car Dealers</title>
+</head>
+
+<body>
+    <!-- bg-body-tertiary -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg " style="background: rgb(4, 166, 166);">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light ps-5" href="#">ONIC BYTE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex-xxl justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav p-start-20 gap-3">
+                    <a class="nav-link text-light active " aria-current="page" href="#">Home</a>
+                    <a class="nav-link text-light " href="#">Features</a>
+                    <a class="nav-link text-light" href="#">Pricing</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Hero Carousel -->
+    <section style="height: calc(100vh - 56px);"> <!-- Adjust height according to your navbar height -->
+        <img src="images/Mercedes-Benz.jpg" class="w-100 h-100" alt="">
+    </section>
+    <!-- Hero Carousel -->
+
+    <!-- Car types -->
+    <section class="container mt-5">
+        <h1 class="text-center mb-4" style="color: rgb(4, 166, 166);">Available Models</h1>
+        <div class="row m-5">
+            <!-- Mercedes 1 -->
+            <div class="col-md-4">
+                <div class="card mb-4 border-0" data-bs-toggle="modal" data-bs-target="#modal1">
+                    <img src="images/Mercedes-AMG C 63 S Coupe.avif" class="card-img-top" style="height: 270px;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Mercedes-AMG C 63 S Coupe</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mercedes 2 -->
+            <div class="col-md-4">
+                <div class="card mb-4 border-0" data-bs-toggle="modal" data-bs-target="#modal2">
+                    <img src="images/Mercedes-AMG GT 63 S.avif" class="card-img-top" style="height: 270px;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Mercedes-AMG GT 63 S</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mercedes 3 -->
+            <div class="col-md-4">
+                <div class="card mb-4 border-0" data-bs-toggle="modal" data-bs-target="#modal3">
+                    <img src="images/Mercedes-AMG GT.avif" class="card-img-top" style="height: 270px;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Mercedes-AMG GT</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row m-5">
+            <!-- Mercedes 4 -->
+            <div class="col-md-4">
+                <div class="card mb-4 border-0" data-bs-toggle="modal" data-bs-target="#modal4">
+                    <img src="images/Mercedes-Benz EQC.avif" class="card-img-top" style="height: 270px;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Mercedes-Benz EQC</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mercedes 5 -->
+            <div class="col-md-4">
+                <div class="card mb-4 border-0" data-bs-toggle="modal" data-bs-target="#modal5">
+                    <img src="images/Mercedes-Benz GLC.avif" class="card-img-top" style="height: 270px;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Mercedes-Benz GLC</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mercedes 6 -->
+            <div class="col-md-4">
+                <div class="card mb-4 border-0" data-bs-toggle="modal" data-bs-target="#modal6">
+                    <img src="images/Mercedes-Maybach S-Class.avif" class="card-img-top" style="height: 270px;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Mercedes-Maybach S-Class</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals -->
+    <!-- Modal for Mercedes-AMG C 63 S Coupe -->
+    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title d-flex justify-content-center w-100" id="modal1Label">Mercedes-AMG C 63 S Coupe</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <img src="images/Mercedes-AMG C 63 S Coupe.avif" class="img-fluid"
+                                alt="Mercedes-AMG C 63 S Coupe" style="height: 270px;">
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th>Engine</th>
+                                        <td>4.0L V8 Biturbo</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Horsepower</th>
+                                        <td>503 hp</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Torque</th>
+                                        <td>516 lb-ft</td>
+                                    </tr>
+                                    <tr>
+                                        <th>0-60 mph</th>
+                                        <td>3.8 seconds</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Top Speed</th>
+                                        <td>180 mph</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Features</th>
+                                        <td>
+                                            <ul>
+                                                <li>AMG Performance 4MATIC+ All-Wheel Drive</li>
+                                                <li>Dynamic Select Driving Modes</li>
+                                                <li>High-Performance Braking System</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Mercedes-AMG GT 63 S -->
+    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title d-flex justify-content-center w-100" id="modal2Label">Mercedes-AMG GT 63 S</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <img src="images/Mercedes-AMG GT 63 S.avif" class="img-fluid" alt="Mercedes-AMG GT 63 S" style="height: 270px;">
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th>Engine</th>
+                                        <td>4.0L V8 Biturbo</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Horsepower</th>
+                                        <td>630 hp</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Torque</th>
+                                        <td>664 lb-ft</td>
+                                    </tr>
+                                    <tr>
+                                        <th>0-60 mph</th>
+                                        <td>3.1 seconds</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Top Speed</th>
+                                        <td>196 mph</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Features</th>
+                                        <td>
+                                            <ul>
+                                                <li>AMG Speedshift MCT 9-Speed Transmission</li>
+                                                <li>AMG Performance Exhaust System</li>
+                                                <li>Adaptive Air Suspension</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Mercedes-AMG GT -->
+    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title d-flex justify-content-center w-100" id="modal3Label">Mercedes-AMG GT</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <img src="images/Mercedes-AMG GT.avif" class="img-fluid" alt="Mercedes-AMG GT" style="height: 270px;">
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th>Engine</th>
+                                        <td>4.0L V8 Biturbo</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Horsepower</th>
+                                        <td>469 hp</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Torque</th>
+                                        <td>465 lb-ft</td>
+                                    </tr>
+                                    <tr>
+                                        <th>0-60 mph</th>
+                                        <td>3.6 seconds</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Top Speed</th>
+                                        <td>192 mph</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Features</th>
+                                        <td>
+                                            <ul>
+                                                <li>AMG Performance Steering Wheel</li>
+                                                <li>AMG Night Package</li>
+                                                <li>Adaptive Braking System</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Mercedes-Benz EQC -->
+    <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title d-flex justify-content-center w-100" id="modal4Label">Mercedes-Benz EQC</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <img src="images/Mercedes-Benz EQC.avif" class="img-fluid" alt="Mercedes-Benz EQC" style="height: 270px;">
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th>Battery</th>
+                                        <td>80 kWh Lithium-ion</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Power</th>
+                                        <td>402 hp</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Torque</th>
+                                        <td>564 lb-ft</td>
+                                    </tr>
+                                    <tr>
+                                        <th>0-60 mph</th>
+                                        <td>4.8 seconds</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Range</th>
+                                        <td>220 miles</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Features</th>
+                                        <td>
+                                            <ul>
+                                                <li>MBUX Infotainment System</li>
+                                                <li>Active Distance Assist DISTRONIC</li>
+                                                <li>Smart Navigation System</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Mercedes-Benz GLC -->
+    <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title d-flex justify-content-center w-100" id="modal5Label">Mercedes-Benz GLC</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <img src="images/Mercedes-Benz GLC.avif" class="img-fluid" alt="Mercedes-Benz GLC" style="height: 270px;">
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th>Engine</th>
+                                        <td>2.0L I4 Turbo</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Horsepower</th>
+                                        <td>255 hp</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Torque</th>
+                                        <td>273 lb-ft</td>
+                                    </tr>
+                                    <tr>
+                                        <th>0-60 mph</th>
+                                        <td>6.1 seconds</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Top Speed</th>
+                                        <td>130 mph</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Features</th>
+                                        <td>
+                                            <ul>
+                                                <li>Blind Spot Assist</li>
+                                                <li>Panorama Roof</li>
+                                                <li>Mercedes-Benz User Experience (MBUX)</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Mercedes-Maybach S-Class -->
+    <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title d-flex justify-content-center w-100" id="modal6Label">Mercedes-Maybach S-Class</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <img src="images/Mercedes-Maybach S-Class.avif" class="img-fluid"
+                                alt="Mercedes-Maybach S-Class" style="height: 270px;">
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th>Engine</th>
+                                        <td>6.0L V12 Biturbo</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Horsepower</th>
+                                        <td>621 hp</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Torque</th>
+                                        <td>738 lb-ft</td>
+                                    </tr>
+                                    <tr>
+                                        <th>0-60 mph</th>
+                                        <td>4.6 seconds</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Top Speed</th>
+                                        <td>155 mph</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Features</th>
+                                        <td>
+                                            <ul>
+                                                <li>Executive Rear Seating Package</li>
+                                                <li>Active Body Control</li>
+                                                <li>Multimedia System with Burmester Surround Sound</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class=" text-light py-1" style="background: rgb(4, 166, 166);">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-4">
+                    <h5 class="mt-4">About Us</h5>
+                    <p>We provide top-notch vehicles and services to our customers. We
+                        believe in quality and customer satisfaction.</p>
+                </div>
+
+                <div class="col-md-4 text-md-right">
+                    <h5 class="mt-4">Follow Us</h5>
+                    <a href="#" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-light"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>ONIC BYTE &copy; 2024 All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Javascript -->
+
+</body>
+
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Onic Byte Cars Dealer</title>
+    <style>
+        .accordion-item {
+            border: none;
+            border-radius: 10px;
+            padding: 0;
+            /* Remove padding to avoid interference with the shadow */
+
+        }
+
+        .accordion-button {
+            background-color: transparent;
+            /* Remove default background color */
+            border-radius: 10px;
+            /* Match button radius to item */
+            padding: 15px;
+            /* Add padding for button */
+        }
+
+        .accordion-button:focus {
+            box-shadow: none;
+            /* Remove focus shadow */
+        }
+
+        .accordion-item:not(.collapsed) {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            /* Apply shadow when expanded */
+        }
+
+        .accordion-button.collapsed {
+            background-color: #fcfcfd;
+            /* Optional: Set a background for collapsed state */
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- bg-body-tertiary -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg " style="background: rgb(4, 166, 166);">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light ps-5" href="#">ONIC BYTE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex-xxl justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav p-start-20 gap-3">
+                    <a class="nav-link text-light active " aria-current="page" href="#">Home</a>
+                    <a class="nav-link text-light " href="#">Features</a>
+                    <a class="nav-link text-light" href="#">Pricing</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Hero Carousel -->
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="images/img_1.webp" class="d-block w-100 vh-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/img_2.webp" class="d-block w-100 vh-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/img_3.webp" class="d-block w-100 vh-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/img_4.webp" class="d-block w-100 vh-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/img_5.webp" class="d-block w-100 vh-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- Hero Carousel -->
+
+    <!-- Car types -->
+    <section class="container mt-5">
+        <h1 class="text-center mb-4" style="color: rgb(4, 166, 166);">OUR BRANDS</h1>
+        <div class="row m-5">
+
+            <!-- BMW -->
+            <div class="col-md-4">
+                <a href="bmw.html" target="_blank" class="text-decoration-none">
+                    <div class="card mb-4 border-0"> <!-- Removed border -->
+                        <img src="images/2023 BMW M8 Competition.avif" class="card-img-top" alt="BMW">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">BMW</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Mercedes -->
+            <div class="col-md-4">
+                <a href="mercedes.html" target="_blank" class="text-decoration-none">
+                    <div class="card mb-4 border-0"> <!-- Removed border -->
+                        <img src="images/Mercedes-Benz.jpg" class="card-img-top" alt="Mercedes">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Mercedes</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Ferrari -->
+            <div class="col-md-4">
+                <a href="ferari.html" target="_blank" class="text-decoration-none">
+                    <div class="card mb-4 border-0"> <!-- Removed border -->
+                        <img src="images/Ferrari J50.jpeg" class="card-img-top" alt="Ferrari">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Ferrari</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accordion -->
+    <section>
+        <div class="accordion mx-auto w-75" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item m-3">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#one"
+                        aria-expanded="true" aria-controls="one">
+                        What are some standout features of BMW vehicles?
+                    </button>
+                </h2>
+                <div id="one" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        BMW vehicles are known for their powerful engines, precise handling, and innovative technology.
+                        Features like the iDrive infotainment system, advanced safety systems, and luxury interiors make
+                        them a popular choice among driving enthusiasts.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item m-3">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#two" aria-expanded="false" aria-controls="two">
+                        What is BMW's commitment to sustainability?
+                    </button>
+                </h2>
+                <div id="two" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        BMW is committed to sustainability through initiatives like electric vehicle production,
+                        reducing CO2 emissions, and using recycled materials. The BMW i Series represents their
+                        dedication to eco-friendly driving.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item m-3">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#three" aria-expanded="false" aria-controls="three">
+                        What makes Ferrari unique in the automotive industry?
+                    </button>
+                </h2>
+                <div id="three" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Ferrari stands out for its exclusive performance, racing heritage, and exceptional design. Each
+                        model is crafted for high-speed performance, featuring powerful engines and advanced
+                        aerodynamics that deliver an unparalleled driving experience.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item m-3">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#four" aria-expanded="false" aria-controls="four">
+                        How does Ferrari ensure the quality of its vehicles?
+                    </button>
+                </h2>
+                <div id="four" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Ferrari maintains strict quality control standards through meticulous craftsmanship and
+                        attention to detail. Each car is hand-assembled and undergoes rigorous testing to ensure it
+                        meets the brand’s high-performance criteria.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item m-3">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#five" aria-expanded="false" aria-controls="five">
+                        What are the key technologies in Mercedes vehicles?
+                    </button>
+                </h2>
+                <div id="five" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Mercedes vehicles feature advanced technologies like the MBUX infotainment system, intelligent
+                        driver assistance systems, and innovative safety features. They are also known for luxury
+                        amenities and a smooth, comfortable ride.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item m-3">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#six" aria-expanded="false" aria-controls="six">
+                        What is Mercedes approach to electric vehicles?
+                    </button>
+                </h2>
+                <div id="six" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Mercedes is investing heavily in electric mobility with its EQ lineup. The brand aims to become
+                        carbon-neutral by 2039, offering a range of electric and hybrid models that combine luxury with
+                        eco-friendliness.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Accordion -->
+
+
+    <!-- Footer -->
+    <footer class=" text-light py-1 mt-5" style="background: rgb(4, 166, 166);">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-4">
+                    <h5 class="mt-4">About Us</h5>
+                    <p>We provide top-notch vehicles and services to our customers. We
+                        believe in quality and customer satisfaction.</p>
+                </div>
+
+                <div class="col-md-4 text-md-right">
+                    <h5 class="mt-4">Follow Us</h5>
+                    <a href="#" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-light"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>ONIC BYTE &copy; 2024 All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Javascript -->
+
+</body>
+
+</html>
